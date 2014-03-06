@@ -8,17 +8,50 @@ section {
 	margin: 20px 0;
 }
 
+
+
+
+/* colors */
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
+	border: 1px solid black;
 	float: left;
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+	position: relative;
+}
+
+.color-1 {
+	background: #033a5d;
+}
+.color-2 {
+	background: #055b91;
+}
+.color-3 {
+	background: #99050e;
+}
+.color-4 {
+	background: #2d2d2d;
+}
+.color-5 {
+	background: #d7d7d7;
+}
+
+
+/**/
+h2{
+	color: #033a5d ;
+}
+
+h3{
+	color: #2d2d2d ;
 }
 
 
